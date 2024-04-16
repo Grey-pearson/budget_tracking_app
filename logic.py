@@ -1,10 +1,9 @@
 import numpy as np
 import pandas as pd
 
-# import slight_budgetting.xlsx
 
-delta_frame1 = pd.read_excel(
-    "slight_budgetting.xlsx", "Sheet1", index_col=None, na_values=["NA"]
-)
+data = pd.read_csv(
+    "budget_tracking_app/test_budgeting_data.csv"
+)  # idk why this dont work
 
-print(delta_frame1)
+print(data)
